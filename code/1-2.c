@@ -3,10 +3,9 @@
 int sum_range(int *start, int *end) {
   int result = 0;
   for(int *p = start; p < end; p++) {
-      result += *p
-
-      return result;
+      result += *p;
   }
+      return result;
   
 }
 
