@@ -1,10 +1,13 @@
 #include <stdio.h>
 
 int sum_range(int *start, int *end) {
-  int result = 0
+  int result = 0;
   for(int *p = start; p < end; p++) {
-      int result += *p
-        }
+      result += *p
+
+      return result;
+  }
+  
 }
 
 int main() {
